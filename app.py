@@ -32,7 +32,7 @@ parser.add_argument('-m', '--trained_model', default='./weights/mobilenet0.25_Fi
 parser.add_argument('--network', default='mobile0.25',
                     help='Backbone network mobile0.25 or resnet50')
 parser.add_argument('--cpu', action="store_true",
-                    default=False, help='Use cpu inference')
+                    default=True, help='Use cpu inference')
 parser.add_argument('--confidence_threshold', default=0.02,
                     type=float, help='confidence_threshold')
 parser.add_argument('--top_k', default=5000, type=int, help='top_k')
