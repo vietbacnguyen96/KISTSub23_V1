@@ -1,13 +1,5 @@
-numpy
 opencv-python
-pillow
 flask
-hnswlib==0.6.2
-tensorflow
-sqlalchemy
-pypubsub==4.0.3
-flask_login
-flask_sqlalchemy
-flask_migrate==3.1.0
-flask_socketio==5.3.0
+torch
 torchvision
+tensorflow
